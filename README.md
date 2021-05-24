@@ -4,7 +4,7 @@
 
 > API Rest that allow make CRUD operations about Projects and its related Tasks.
 
-This application was made with [Node.js][], [Express.js][] and [Sequelize][]. It is designed to work with [PostgreSQL] databases.
+This application was made with [Node.js][], [Express.js][] and [Sequelize][]. It is designed to work with [PostgreSQL][] databases.
 
 ## Table of Contents
 
@@ -53,9 +53,7 @@ export const dbconfig = {
 
 ### Run a local server
 
-Since this code is implemented using ES6 syntax we use Babel to translate it to ES5 code. Babel takes a js file, converts the code in it, and outputs into a new file..
-
-In order to get The built version of this project run on root directory the next command: 
+Since this code is implemented using ES6 syntax we use Babel to translate it to ES5 code. In order to get the built version of this project run on root directory the next command: 
 
 ```bash
 npm run build
@@ -66,3 +64,10 @@ Then start the project:
 ```bash
 npm start
 ```
+
+##
+
+[Node.js]: https://nodejs.org/es/
+[Express.js]: https://expressjs.com/es/
+[Sequelize]: https://sequelize.org/
+[PostgreSQL]: https://www.postgresql.org/
